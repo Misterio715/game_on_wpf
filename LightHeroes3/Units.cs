@@ -28,7 +28,7 @@ namespace LightHeroes3
         public Soldier() {
             this.damage = 1;
             this.hp = 10;
-            this.defence = 12;
+            this.defence = 12;  
             this.cost = 10;
             this.Skin.ImageSource = new BitmapImage(new Uri("Images/soldier.jpg", UriKind.Relative));
             this.Shape.Fill = this.Skin;
