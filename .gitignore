@@ -3,8 +3,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-LightHeroes3/Units.cs
-
 # User-specific files
 *.suo
 *.user
