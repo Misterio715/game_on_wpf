@@ -9,5 +9,6 @@ namespace LightHeroes3
     public static class Game
     {
         public static void Hello() { }
+        public static void Bye() { }
     }
 }
