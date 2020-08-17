@@ -28,6 +28,7 @@ namespace LightHeroes3
         public int a = 20;
         public int b = 30;
         public int c = 330;
+        public int d = 3430;
         public Soldier() {
             this.damage = 1;
             this.hp = 10;
