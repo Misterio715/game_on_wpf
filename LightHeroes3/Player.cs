@@ -14,8 +14,6 @@ namespace LightHeroes3
         public List<Unit> units = new List<Unit> { };
         public ImageBrush Skin = new ImageBrush();
         public Rectangle Shape = new Rectangle() { Width = 80, Height = 80 };
-        public int hi = 10;
-
 
         public Player(string hero_type) {
             this.Skin.ImageSource = hero_type == "Hero" ? new BitmapImage(new Uri("Images/hero.png", UriKind.Relative)) : new BitmapImage(new Uri("Images/hero2.png", UriKind.Relative));
